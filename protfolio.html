@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4aaf7ba184.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img  height="80px" width="80px" src="CANVA2-removebg-preview.png" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+           <div class="header-text">
+            <p>FRONT-END WEB DEVELOPER</p>
+            <H1>Hi, I'm  <span>Pirya Lachman</span> <br> From Pakistan</H1>
+           </div>
+        </div>
+  </div>
+  <!-- about section -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://img.freepik.com/free-vector/programmer-working-desk_23-2148288753.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I am Pirya lachman , a Computer System Engineer. I have more than 2 years of experience of web development and programming. I have developed lot of websites for local as well as international clients. My Core Expertise are: Web Application Development (HTML, CSS, Bootstrap, JavaScript, PHP).</p>
+            <div class="tab-titles">
+                <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Development</span><br>Designing web page</li>
+                    <li><span>UI/UX</span><br>Designing</li>
+                    <li><span>App Development</span><br>Buliding Andriod/IOS Apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>current</span><br>Web Development Training at Pak Interns</li>
+                    <li><span>2022</span><br>Course at Coursera</li>
+                    <li><span>current</span><br>Buliding Andriod/IOS Apps intership at CODSOFT</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022</span><br>FRONT-END web Development at MUET University</li>
+                    <li><span>2020-2024</span><br>Bechalor In Computer System Engineering At MUET Jamshoro </li>
+                    <li><span>2023</span><br>Buliding Andriod/IOS Apps from  CODSOFT</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Services -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designing</h2>
+            <p>A web design service provides you with a customized website design that's perfect for your business or personal site. They'll work with you to create a design that matches your brand, while giving your customers a seamless user experience that will delight them.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>UI & UX Consulting is a holistic approach to enhancing the users' experience based on business objectives, users' perspective, qualitative and quantitative data, and the UX consultant's domain expertise.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Andriod/IOS App Development</h2>
+            <p>A mobile app developer uses programming languages and development skills to create, test, and develop applications on mobile devices.Work in popular operating system environments like iOS and Android and often take into account UI and UX principles when creating applications.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Protfolio -->
+  <div id="protfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Social media is always evolving to satisfy the needs and interests of its users.New social media platforms emerge to serve specific audiences or to offer something different.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>A mobile shopping app is an application that allows customers to browse and buy products or services from a retailer or service provider.Shopping apps can significantly impact businesses as mobile traffic continues to grow at an alarming rate.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Apple Music is a music, audio and video streaming service developed by Apple Inc.Users select music to stream to their device on-demand, or they can listen to existing playlists.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1><br>
+            <a class="milto" href = "mailto:priyalachman82@gmail.com"> <i class="fa-solid fa-paper-plane"></i>priyalachman82@gmail.com</a><br><br><br>
+            <a  class="tel" href="tel:923363921363">  <i class="fa-solid fa-square-phone"></i> 923363921363</a>
+
+            <div class="social-Icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/piryaparmar95/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pirya-lachman-087162214/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="pirya lachman cv (2).pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form action="684085_currentexp.jpg">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+       </div>
+    </div>
+  </div>
+  <script>
+  var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove ("active-links");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList. remove ("active-tab");
+    }
+    event.currentTarget.classList.add("active-links");
+    document.getElementById(tabname).classList.add("active-tab");
+    
+}
+  </script>
+  <script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
